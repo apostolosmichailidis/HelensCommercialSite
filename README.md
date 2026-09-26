@@ -1,13 +1,15 @@
 # Helen's Commercial Site
 
 Static website for Dr. Eleni Anyfanti (Δρ. Ελένη Ανυφαντή), Psychologist – Clinical Neuropsychologist.
+Plain HTML, CSS and JavaScript — no frameworks, no build step.
 
-## Structure
-- `src/*.html` – page content (edit these)
-- `build.py` – wraps each page with the shared header/footer and writes the final pages to the repo root
-- `assets/style.css`, `assets/main.js` – shared styles and mobile menu
+## Files
+- `index.html` – home
+- `biografiko.html` – biography
+- `ypiresies.html` – services
+- `epikoinonia.html` – contact
+- `assets/style.css` – all styles
+- `assets/main.js` – mobile menu toggle and footer year
 
-## Editing
-1. Edit a file in `src/` (phone and address live at the top of `build.py`).
-2. Run `python3 build.py`.
-3. Open `index.html` in a browser.
+Open `index.html` in a browser to view. The header and footer are repeated in each page,
+so a change there (e.g. the phone number) must be made in all four files.
